@@ -157,10 +157,10 @@ plugins=(git)
 
 
 # Customize to your needs...
+export EDITOR=vim
 export PATH=/home/lerry/.autojump/bin:/home/lerry/.autojump/bin:/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.5.3
 alias ll='ls -al'
 alias acl='ack'
-
 
 alias hgst='hg status'
 alias hgdf='hg diff'
@@ -170,8 +170,8 @@ alias fq='export http_proxy="http://127.0.0.1:8087/"'
 alias nofq='export http_proxy=""'
 alias gitst='git status'
 alias pyserver='python -m SimpleHTTPServer'
-export EDITOR=vim
 alias post='hg push'
 alias get='hg fe'
-alias 'gpush'="git add .;git commit -m 'fix';git pull;git push;"
+alias gpush="git add .;git commit -m 'fix';git pull;git push;"
 alias clean='hg purge'
+alias -s py=vim
