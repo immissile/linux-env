@@ -175,3 +175,5 @@ alias get='hg fe'
 alias gpush="git add .;git commit -m 'fix';git pull;git push;"
 alias clean='hg purge'
 alias -s py=vim
+alias -s coffee=vim
+alias -s html=vim
