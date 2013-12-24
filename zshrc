@@ -157,7 +157,14 @@ plugins=(git)
 
 
 # Customize to your needs...
-export PATH=/home/lerry/.autojump/bin:/home/lerry/.autojump/bin:/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.5.3
+export PATH=/home/lerry/.autojump/bin:/home/lerry/.autojump/bin:/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.3
+[[ -s /etc/profile.d/autojump.zsh ]] && . /etc/profile.d/autojump.zsh
+autoload -U compinit && compinit -u
+export AUTOJUMP_IGNORE_CASE=1
+export AUTOJUMP_KEEP_SYMLINKS=1
+
+
+
 alias ll='ls -al'
 alias acl='ack'
 alias vo='vi'
