@@ -1,6 +1,7 @@
 linux-env
 =========
 
+```
 自用的一些linux配置，zsh，vim，hg，git
 
 apt-get update&&apt-get upgrade
@@ -31,3 +32,4 @@ sudo chsh
 
 easy_install tornado pygments lerrylib jinja2 torndb requests pip
 easy_install distribute mysql-python gevent pylibmc redis
+```
