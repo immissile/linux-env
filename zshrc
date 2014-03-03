@@ -170,7 +170,7 @@ alias acl='ack'
 alias vo='vi'
 alias synctime='sudo ntpdate time-a.nist.gov'
 
-alias hgst='hg status'
+alias hgst='hg st'
 alias hgdf='hg diff'
 alias hghe='hg heads .'
 

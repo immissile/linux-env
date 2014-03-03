@@ -51,4 +51,4 @@ diff.trailingwhitespace = red_background
 
 [alias]
 blame = annotate --user --number
-
+st = !hg status $($HG root) $HG_ARGS
