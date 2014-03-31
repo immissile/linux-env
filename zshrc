@@ -1,5 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+LC_TYPE=zh_CN.UTF-8
 #color{{{
 autoload colors 
 colors
